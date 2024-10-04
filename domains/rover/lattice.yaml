@@ -1,0 +1,23 @@
+Lattice:
+    Init: c1
+    Nodes:
+        - c2
+        - c3
+        - c4
+        - c5
+        - c6
+        - c7
+        - c8
+    Edges:
+        - [c1, can_stabilize, c2]
+        - [c1, visible, c3]
+        - [c1, channel_free, c4]
+        - [c2, visible, c5]
+        - [c2, channel_free, c7]
+        - [c3, channel_free, c6]
+        - [c3, can_stabilize, c5]
+        - [c4, visible, c6]
+        - [c4, can_stabilize, c7]
+        - [c5, channel_free, c8]
+        - [c6, can_stabilize, c8]
+        - [c7, visible, c8]

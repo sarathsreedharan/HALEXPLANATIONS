@@ -1,0 +1,23 @@
+Lattice:
+    Init: c1
+    Nodes:
+        - c2
+        - c3
+        - c4
+        - c5
+        - c6
+        - c7
+        - c8
+    Edges:
+        - [c1, connected, c2]
+        - [c1, person, c3]
+        - [c1, active, c4]
+        - [c2, person, c5]
+        - [c2, active, c7]
+        - [c3, active, c6]
+        - [c3, connected, c5]
+        - [c4, person, c6]
+        - [c4, connected, c7]
+        - [c5, active, c8]
+        - [c6, connected, c8]
+        - [c7, person, c8]

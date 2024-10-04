@@ -1,0 +1,27 @@
+Lattice:
+  Edge_map:
+    c1: {free: c4, in-line: c1, occupied: c6}
+    c2: {free: c5, in-line: c6}
+    c3: {in-line: c4, occupied: c5}
+    c4: {occupied: c7}
+    c5: {in-line: c7}
+    c6: {free: c7}
+  Init: c1
+  Inv_edge_map:
+    c1: {in-line: c1}
+    c2: {occupied: c1}
+    c3: {free: c1}
+    c4: {free: c1, in-line: c3}
+    c5: {free: c2, occupied: c3}
+    c6: {in-line: c2, occupied: c1}
+    c7: {free: c6, in-line: c5, occupied: c4}
+  Node_map:
+    c1: !!set {in-line: null}
+    c2: !!set {occupied: null}
+    c3: !!set {free: null}
+    c4: !!set {free: null, in-line: null}
+    c5: !!set {free: null, occupied: null}
+    c6: !!set {in-line: null, occupied: null}
+    c7: !!set {free: null, in-line: null, occupied: null}
+  Nodes: [c1, c2, c3, c4, c5, c6, c7]
+  Sup: c7

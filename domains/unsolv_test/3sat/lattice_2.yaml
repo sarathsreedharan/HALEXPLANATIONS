@@ -1,0 +1,15 @@
+Lattice:
+  Edge_map:
+    c1: {solved: c1, unassigned: c3}
+    c2: {solved: c3}
+  Init: c1
+  Inv_edge_map:
+    c1: {solved: c1}
+    c2: {unassigned: c1}
+    c3: {solved: c2, unassigned: c1}
+  Node_map:
+    c1: !!set {solved: null}
+    c2: !!set {unassigned: null}
+    c3: !!set {solved: null, unassigned: null}
+  Nodes: [c1, c2, c3]
+  Sup: c3

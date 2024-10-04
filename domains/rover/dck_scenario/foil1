@@ -1,0 +1,6 @@
+while at-rock-sample waypoint5
+do
+    stabilize
+    any
+done
+any*

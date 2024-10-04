@@ -1,0 +1,7 @@
+if test
+then
+       stabilize
+else
+       any
+fi
+any*

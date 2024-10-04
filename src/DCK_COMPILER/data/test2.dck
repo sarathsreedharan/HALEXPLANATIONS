@@ -1,0 +1,11 @@
+any*
+while handempty
+do
+    if clear_a
+    then 
+        pickup_a
+    else
+        pickup_b
+    fi
+done
+any*

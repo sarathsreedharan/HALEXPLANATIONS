@@ -1,0 +1,26 @@
+(define (domain rover)
+(:requirements :strips :typing)
+(:types rover waypoint store lander objective)
+
+(:predicates (at ?x - rover ?y - waypoint) 
+             (at_lander ?x - lander ?y - waypoint)
+             (can_traverse ?r - rover ?x - waypoint ?y - waypoint)
+             (equipped_for_rock_analysis ?r - rover)
+             (empty ?s - store)
+             (have_rock_analysis ?r - rover ?w - waypoint)
+             (full ?s - store)
+             (available ?r - rover)
+             (visible ?w - waypoint ?p - waypoint)
+             (communicated_rock_data ?w - waypoint)
+	         (at_rock_sample ?w - waypoint)
+             (visible_from ?o - objective ?w - waypoint)
+	         (store_of ?s - store ?r - rover)
+	         (channel_free ?l - lander)
+             (can_stabilize)
+             (rover_is_stable)
+             (inexploration)
+             {}
+)
+
+            {}
+)

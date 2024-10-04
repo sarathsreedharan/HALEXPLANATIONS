@@ -1,0 +1,900 @@
+Lattice:
+  Edge_map:
+    c1: {store_of: c1, energy: c28, energycost: c29, at_soil_sample: c30, channel_free: c22,
+      calibration_target: c9, on_board: c27, sum: c16}
+    c10: {store_of: c65, energy: c54, energycost: c66, at_soil_sample: c67, on_board: c58,
+      sum: c62}
+    c100: {store_of: c209, channel_free: c207, calibration_target: c176, sum: c194}
+    c101: {store_of: c179, channel_free: c183, on_board: c176, sum: c174}
+    c102: {energy: c208, at_soil_sample: c211, calibration_target: c191, sum: c203}
+    c103: {energy: c192, at_soil_sample: c184, channel_free: c203, calibration_target: c201}
+    c104: {at_soil_sample: c209, channel_free: c208, calibration_target: c163, sum: c192}
+    c105: {energy: c163, at_soil_sample: c210, channel_free: c191, sum: c201}
+    c106: {energy: c209, channel_free: c211, calibration_target: c210, sum: c184}
+    c107: {store_of: c211, energy: c207, calibration_target: c205, sum: c199}
+    c108: {store_of: c203, energy: c193, at_soil_sample: c199, calibration_target: c204}
+    c109: {store_of: c191, energy: c180, at_soil_sample: c205, sum: c204}
+    c11: {store_of: c61, energy: c45, energycost: c63, at_soil_sample: c64, channel_free: c62,
+      on_board: c50}
+    c110: {store_of: c184, energy: c194, channel_free: c199, calibration_target: c189}
+    c111: {store_of: c210, energy: c176, channel_free: c205, sum: c189}
+    c112: {energy: c206, energycost: c211, calibration_target: c169, sum: c185}
+    c113: {energy: c195, energycost: c203, at_soil_sample: c185, calibration_target: c215}
+    c114: {energycost: c208, at_soil_sample: c206, calibration_target: c164, sum: c195}
+    c115: {energy: c164, energycost: c191, at_soil_sample: c169, sum: c215}
+    c116: {energycost: c214, calibration_target: c170, on_board: c206, sum: c217}
+    c117: {energycost: c197, at_soil_sample: c217, calibration_target: c216, on_board: c195}
+    c118: {energycost: c177, at_soil_sample: c170, on_board: c164, sum: c216}
+    c119: {energy: c197, at_soil_sample: c213, calibration_target: c190, on_board: c203}
+    c12: {store_of: c57, energy: c42, energycost: c59, at_soil_sample: c60, channel_free: c58,
+      sum: c50}
+    c120: {store_of: c213, energy: c218, calibration_target: c200, on_board: c199}
+    c121: {store_of: c190, energy: c212, at_soil_sample: c200, on_board: c204}
+    c122: {store_of: c185, energy: c196, energycost: c199, calibration_target: c188}
+    c123: {store_of: c206, energycost: c207, calibration_target: c175, sum: c196}
+    c124: {store_of: c169, energy: c175, energycost: c205, sum: c188}
+    c125: {energy: c216, energycost: c190, at_soil_sample: c168, on_board: c215}
+    c126: {store_of: c215, energy: c182, energycost: c204, at_soil_sample: c188}
+    c127: {store_of: c216, energycost: c212, at_soil_sample: c172, on_board: c182}
+    c128: {store_of: c168, energy: c172, energycost: c200, on_board: c188}
+    c129: {energy: c178, at_soil_sample: c202, channel_free: c190, on_board: c201}
+    c13: {store_of: c53, energycost: c55, at_soil_sample: c56, channel_free: c54, on_board: c42, sum: c45}
+    c130: {store_of: c201, energy: c181, at_soil_sample: c189, channel_free: c204}
+    c131: {store_of: c178, at_soil_sample: c174, channel_free: c212, on_board: c181}
+    c132: {store_of: c202, energy: c174, channel_free: c200, on_board: c189}
+    c133: {energy: c179, channel_free: c167, on_board: c210, sum: c202}
+    c134: {store_of: c167, energy: c183, on_board: c205, sum: c200}
+    c135: {energy: c170, energycost: c167, on_board: c169, sum: c168}
+    c136: {energy: c171, energycost: c202, channel_free: c168, on_board: c186}
+    c137: {energy: c166, energycost: c210, channel_free: c169, sum: c186}
+    c138: {energycost: c179, channel_free: c170, on_board: c166, sum: c171}
+    c139: {energy: c165, energycost: c201, at_soil_sample: c186, channel_free: c215}
+    c14: {store_of: c78, energy: c55, at_soil_sample: c77, channel_free: c66, on_board: c59, sum: c63}
+    c140: {energycost: c163, at_soil_sample: c166, channel_free: c164, sum: c165}
+    c141: {store_of: c170, energycost: c183, on_board: c175, sum: c172}
+    c142: {store_of: c171, energycost: c174, channel_free: c172, on_board: c173}
+    c143: {store_of: c166, energycost: c176, channel_free: c175, sum: c173}
+    c144: {at_soil_sample: c179, channel_free: c177, on_board: c163, sum: c178}
+    c145: {store_of: c163, at_soil_sample: c176, channel_free: c180, sum: c181}
+    c146: {store_of: c164, energycost: c180, at_soil_sample: c175, sum: c182}
+    c147: {energycost: c178, at_soil_sample: c171, channel_free: c216, on_board: c165}
+    c148: {energy: c187, energycost: c184, channel_free: c185, calibration_target: c186}
+    c149: {store_of: c186, energy: c173, energycost: c189, channel_free: c188}
+    c15: {store_of: c76, energy: c56, energycost: c77, channel_free: c67, on_board: c60,
+      sum: c64}
+    c150: {store_of: c187, energycost: c194, channel_free: c196, calibration_target: c173}
+    c151: {store_of: c192, at_soil_sample: c194, channel_free: c193, calibration_target: c181}
+    c152: {store_of: c165, energycost: c181, at_soil_sample: c173, channel_free: c182}
+    c153: {energy: c214, calibration_target: c167, on_board: c211, sum: c213}
+    c154: {energy: c217, energycost: c213, calibration_target: c168, on_board: c185}
+    c155: {store_of: c217, energycost: c218, calibration_target: c172, on_board: c196}
+    c156: {energycost: c209, channel_free: c206, calibration_target: c166, sum: c187}
+    c157: {energy: c198, channel_free: c213, calibration_target: c202, on_board: c184}
+    c158: {energycost: c198, channel_free: c217, calibration_target: c171, on_board: c187}
+    c159: {energycost: c192, at_soil_sample: c187, channel_free: c195, calibration_target: c165}
+    c16: {energy: c43, energycost: c89, at_soil_sample: c72, channel_free: c68, calibration_target: c61,
+      on_board: c48}
+    c160: {store_of: c195, energycost: c193, at_soil_sample: c196, calibration_target: c182}
+    c161: {at_soil_sample: c198, channel_free: c197, calibration_target: c178, on_board: c192}
+    c162: {energy: c177, at_soil_sample: c167, on_board: c191, sum: c190}
+    c163: {at_soil_sample: c224, channel_free: c227, sum: c229}
+    c164: {energycost: c227, at_soil_sample: c223, sum: c228}
+    c165: {energycost: c229, at_soil_sample: c225, channel_free: c228}
+    c166: {energycost: c224, channel_free: c223, sum: c225}
+    c167: {energy: c226, on_board: c222, sum: c219}
+    c168: {energy: c221, energycost: c219, on_board: c220}
+    c169: {energy: c223, energycost: c222, sum: c220}
+    c17: {store_of: c68, energy: c44, energycost: c69, at_soil_sample: c70, calibration_target: c62,
+      on_board: c49}
+    c170: {energycost: c226, on_board: c223, sum: c221}
+    c171: {energycost: c245, channel_free: c221, on_board: c225}
+    c172: {store_of: c221, energycost: c237, on_board: c243}
+    c173: {store_of: c225, energycost: c242, channel_free: c243}
+    c174: {store_of: c245, channel_free: c237, on_board: c242}
+    c175: {store_of: c223, energycost: c241, sum: c243}
+    c176: {store_of: c224, channel_free: c241, sum: c242}
+    c177: {at_soil_sample: c226, on_board: c227, sum: c233}
+    c178: {at_soil_sample: c245, channel_free: c233, on_board: c229}
+    c179: {channel_free: c226, on_board: c224, sum: c245}
+    c18: {store_of: c48, energy: c39, energycost: c51, at_soil_sample: c52, channel_free: c49,
+      calibration_target: c50}
+    c180: {store_of: c227, at_soil_sample: c241, sum: c238}
+    c181: {store_of: c229, at_soil_sample: c242, channel_free: c238}
+    c182: {store_of: c228, energycost: c238, at_soil_sample: c243}
+    c183: {store_of: c226, on_board: c241, sum: c237}
+    c184: {energy: c240, channel_free: c236, calibration_target: c235}
+    c185: {energy: c234, energycost: c236, calibration_target: c220}
+    c186: {energy: c225, energycost: c235, channel_free: c220}
+    c187: {energycost: c240, channel_free: c234, calibration_target: c225}
+    c188: {store_of: c220, energy: c243, energycost: c244}
+    c189: {store_of: c235, energy: c242, channel_free: c244}
+    c19: {store_of: c43, energycost: c46, at_soil_sample: c47, channel_free: c44, calibration_target: c45,
+      on_board: c39}
+    c190: {energy: c233, at_soil_sample: c219, on_board: c232}
+    c191: {energy: c227, at_soil_sample: c222, sum: c232}
+    c192: {at_soil_sample: c240, channel_free: c246, calibration_target: c229}
+    c193: {store_of: c246, at_soil_sample: c239, calibration_target: c238}
+    c194: {store_of: c240, channel_free: c239, calibration_target: c242}
+    c195: {energycost: c246, at_soil_sample: c234, calibration_target: c228}
+    c196: {store_of: c234, energycost: c239, calibration_target: c243}
+    c197: {at_soil_sample: c230, calibration_target: c233, on_board: c246}
+    c198: {channel_free: c230, calibration_target: c245, on_board: c240}
+    c199: {store_of: c236, energy: c239, calibration_target: c244}
+    c2: {store_of: c22, energy: c24, energycost: c25, at_soil_sample: c26, calibration_target: c10,
+      on_board: c23, sum: c17}
+    c20: {store_of: c89, energy: c46, at_soil_sample: c90, channel_free: c69, calibration_target: c63, on_board: c51}
+    c200: {store_of: c219, energy: c237, on_board: c244}
+    c201: {energy: c229, at_soil_sample: c235, channel_free: c232}
+    c202: {energy: c245, channel_free: c219, on_board: c235}
+    c203: {energy: c246, at_soil_sample: c236, calibration_target: c232}
+    c204: {store_of: c232, energy: c238, at_soil_sample: c244}
+    c205: {store_of: c222, energy: c241, sum: c244}
+    c206: {energycost: c231, calibration_target: c223, sum: c234}
+    c207: {store_of: c231, calibration_target: c241, sum: c239}
+    c208: {at_soil_sample: c231, calibration_target: c227, sum: c246}
+    c209: {channel_free: c231, calibration_target: c224, sum: c240}
+    c21: {store_of: c72, energy: c47, energycost: c90, channel_free: c70, calibration_target: c64,
+      on_board: c52}
+    c210: {energy: c224, channel_free: c222, sum: c235}
+    c211: {energy: c231, calibration_target: c222, sum: c236}
+    c212: {store_of: c233, at_soil_sample: c237, on_board: c238}
+    c213: {energy: c230, calibration_target: c219, on_board: c236}
+    c214: {calibration_target: c226, on_board: c231, sum: c230}
+    c215: {energy: c228, energycost: c232, at_soil_sample: c220}
+    c216: {energycost: c233, at_soil_sample: c221, on_board: c228}
+    c217: {energycost: c230, calibration_target: c221, on_board: c234}
+    c218: {store_of: c230, calibration_target: c237, on_board: c239}
+    c219: {energy: c251, on_board: c249}
+    c22: {energy: c86, energycost: c87, at_soil_sample: c71, calibration_target: c65, on_board: c85,
+      sum: c68}
+    c220: {energy: c254, energycost: c249}
+    c221: {energycost: c251, on_board: c254}
+    c222: {energy: c253, sum: c249}
+    c223: {energycost: c253, sum: c254}
+    c224: {channel_free: c253, sum: c247}
+    c225: {energycost: c247, channel_free: c254}
+    c226: {on_board: c253, sum: c251}
+    c227: {at_soil_sample: c253, sum: c250}
+    c228: {energycost: c250, at_soil_sample: c254}
+    c229: {at_soil_sample: c247, channel_free: c250}
+    c23: {store_of: c85, energy: c38, energycost: c83, at_soil_sample: c88, calibration_target: c58,
+      sum: c49}
+    c230: {calibration_target: c251, on_board: c252}
+    c231: {calibration_target: c253, sum: c252}
+    c232: {energy: c250, at_soil_sample: c249}
+    c233: {at_soil_sample: c251, on_board: c250}
+    c234: {energycost: c252, calibration_target: c254}
+    c235: {energy: c247, channel_free: c249}
+    c236: {energy: c252, calibration_target: c249}
+    c237: {store_of: c251, on_board: c248}
+    c238: {store_of: c250, at_soil_sample: c248}
+    c239: {store_of: c252, calibration_target: c248}
+    c24: {store_of: c86, energycost: c80, at_soil_sample: c91, calibration_target: c54, on_board: c38,
+      sum: c44}
+    c240: {channel_free: c252, calibration_target: c247}
+    c241: {store_of: c253, sum: c248}
+    c242: {store_of: c247, channel_free: c248}
+    c243: {store_of: c254, energycost: c248}
+    c244: {store_of: c249, energy: c248}
+    c245: {channel_free: c251, on_board: c247}
+    c246: {at_soil_sample: c252, calibration_target: c250}
+    c247: {channel_free: c255}
+    c248: {store_of: c255}
+    c249: {energy: c255}
+    c25: {store_of: c87, energy: c80, at_soil_sample: c92, calibration_target: c66, on_board: c83,
+      sum: c69}
+    c250: {at_soil_sample: c255}
+    c251: {on_board: c255}
+    c252: {calibration_target: c255}
+    c253: {sum: c255}
+    c254: {energycost: c255}
+    c26: {store_of: c71, energy: c91, energycost: c92, calibration_target: c67, on_board: c88,
+      sum: c70}
+    c27: {energy: c37, energycost: c82, at_soil_sample: c73, channel_free: c85, calibration_target: c57,
+      sum: c48}
+    c28: {energycost: c79, at_soil_sample: c74, channel_free: c86, calibration_target: c53, on_board: c37, sum: c43}
+    c29: {energy: c79, at_soil_sample: c75, channel_free: c87, calibration_target: c78, on_board: c82, sum: c89}
+    c3: {store_of: c16, energy: c19, energycost: c20, at_soil_sample: c21, channel_free: c17,
+      calibration_target: c11, on_board: c18}
+    c30: {energy: c74, energycost: c75, channel_free: c71, calibration_target: c76, on_board: c73,
+      sum: c72}
+    c31: {store_of: c73, energy: c41, energycost: c84, channel_free: c88, calibration_target: c60,
+      sum: c52}
+    c32: {store_of: c74, energycost: c81, channel_free: c91, calibration_target: c56, on_board: c41,
+      sum: c47}
+    c33: {store_of: c75, energy: c81, channel_free: c92, calibration_target: c77, on_board: c84, sum: c90}
+    c34: {store_of: c82, energy: c40, at_soil_sample: c84, channel_free: c83, calibration_target: c59, sum: c51}
+    c35: {store_of: c79, at_soil_sample: c81, channel_free: c80, calibration_target: c55, on_board: c40, sum: c46}
+    c36: {store_of: c37, energycost: c40, at_soil_sample: c41, channel_free: c38, calibration_target: c42,
+      sum: c39}
+    c37: {energycost: c104, at_soil_sample: c156, channel_free: c114, calibration_target: c140, sum: c159}
+    c38: {store_of: c114, energycost: c96, at_soil_sample: c123, calibration_target: c146, sum: c160}
+    c39: {store_of: c159, energycost: c151, at_soil_sample: c150, channel_free: c160, calibration_target: c152}
+    c4: {store_of: c27, energy: c36, energycost: c34, at_soil_sample: c31, channel_free: c23,
+      calibration_target: c12, sum: c18}
+    c40: {store_of: c104, at_soil_sample: c100, channel_free: c96, calibration_target: c145, sum: c151}
+    c41: {store_of: c156, energycost: c100, channel_free: c123, calibration_target: c143, sum: c150}
+    c42: {store_of: c140, energycost: c145, at_soil_sample: c143, channel_free: c146, sum: c152}
+    c43: {energycost: c161, at_soil_sample: c158, channel_free: c117, calibration_target: c147, on_board: c159}
+    c44: {store_of: c117, energycost: c95, at_soil_sample: c155, calibration_target: c127, on_board: c160}
+    c45: {store_of: c147, energycost: c131, at_soil_sample: c142, channel_free: c127, on_board: c152}
+    c46: {store_of: c161, at_soil_sample: c99, channel_free: c95, calibration_target: c131, on_board: c151}
+    c47: {store_of: c158, energycost: c99, channel_free: c155, calibration_target: c142, on_board: c150}
+    c48: {energy: c159, energycost: c103, at_soil_sample: c148, channel_free: c113, calibration_target: c139}
+    c49: {store_of: c113, energy: c160, energycost: c108, at_soil_sample: c122, calibration_target: c126}
+    c5: {store_of: c28, energycost: c35, at_soil_sample: c32, channel_free: c24, calibration_target: c13, on_board: c36,
+      sum: c19}
+    c50: {store_of: c139, energy: c152, energycost: c130, at_soil_sample: c149, channel_free: c126}
+    c51: {store_of: c103, energy: c151, at_soil_sample: c110, channel_free: c108, calibration_target: c130}
+    c52: {store_of: c148, energy: c150, energycost: c110, channel_free: c122, calibration_target: c149}
+    c53: {energycost: c144, at_soil_sample: c138, channel_free: c118, on_board: c140, sum: c147}
+    c54: {store_of: c118, energycost: c97, at_soil_sample: c141, on_board: c146, sum: c127}
+    c55: {store_of: c144, at_soil_sample: c101, channel_free: c97, on_board: c145, sum: c131}
+    c56: {store_of: c138, energycost: c101, channel_free: c141, on_board: c143, sum: c142}
+    c57: {energy: c140, energycost: c105, at_soil_sample: c137, channel_free: c115, sum: c139}
+    c58: {store_of: c115, energy: c146, energycost: c109, at_soil_sample: c124, sum: c126}
+    c59: {store_of: c105, energy: c145, at_soil_sample: c111, channel_free: c109, sum: c130}
+    c6: {store_of: c29, energy: c35, at_soil_sample: c33, channel_free: c25, calibration_target: c14, on_board: c34,
+      sum: c20}
+    c60: {store_of: c137, energy: c143, energycost: c111, channel_free: c124, sum: c149}
+    c61: {energy: c147, energycost: c129, at_soil_sample: c136, channel_free: c125, on_board: c139}
+    c62: {store_of: c125, energy: c127, energycost: c121, at_soil_sample: c128, on_board: c126}
+    c63: {store_of: c129, energy: c131, at_soil_sample: c132, channel_free: c121, on_board: c130}
+    c64: {store_of: c136, energy: c142, energycost: c132, channel_free: c128, on_board: c149}
+    c65: {energy: c118, energycost: c162, at_soil_sample: c135, on_board: c115, sum: c125}
+    c66: {store_of: c162, energy: c97, at_soil_sample: c134, on_board: c109, sum: c121}
+    c67: {store_of: c135, energy: c141, energycost: c134, on_board: c124, sum: c128}
+    c68: {energy: c117, energycost: c119, at_soil_sample: c154, calibration_target: c125, on_board: c113}
+    c69: {store_of: c119, energy: c95, at_soil_sample: c120, calibration_target: c121, on_board: c108}
+    c7: {store_of: c30, energy: c32, energycost: c33, channel_free: c26, calibration_target: c15,
+      on_board: c31, sum: c21}
+    c70: {store_of: c154, energy: c155, energycost: c120, calibration_target: c128, on_board: c122}
+    c71: {energy: c116, energycost: c153, calibration_target: c135, on_board: c112, sum: c154}
+    c72: {energy: c158, energycost: c157, channel_free: c154, calibration_target: c136, on_board: c148}
+    c73: {energy: c156, energycost: c106, channel_free: c112, calibration_target: c137, sum: c148}
+    c74: {energycost: c98, channel_free: c116, calibration_target: c138, on_board: c156, sum: c158}
+    c75: {energy: c98, channel_free: c153, calibration_target: c133, on_board: c106, sum: c157}
+    c76: {energy: c138, energycost: c133, channel_free: c135, on_board: c137, sum: c136}
+    c77: {store_of: c133, energy: c101, channel_free: c134, on_board: c111, sum: c132}
+    c78: {energy: c144, at_soil_sample: c133, channel_free: c162, on_board: c105, sum: c129}
+    c79: {at_soil_sample: c98, channel_free: c93, calibration_target: c144, on_board: c104, sum: c161}
+    c8: {store_of: c9, energy: c13, energycost: c14, at_soil_sample: c15, channel_free: c10,
+      on_board: c12, sum: c11}
+    c80: {store_of: c93, at_soil_sample: c94, calibration_target: c97, on_board: c96, sum: c95}
+    c81: {store_of: c98, channel_free: c94, calibration_target: c101, on_board: c100, sum: c99}
+    c82: {energy: c104, at_soil_sample: c106, channel_free: c102, calibration_target: c105, sum: c103}
+    c83: {store_of: c102, energy: c96, at_soil_sample: c107, calibration_target: c109, sum: c108}
+    c84: {store_of: c106, energy: c100, channel_free: c107, calibration_target: c111, sum: c110}
+    c85: {energy: c114, energycost: c102, at_soil_sample: c112, calibration_target: c115, sum: c113}
+    c86: {energycost: c93, at_soil_sample: c116, calibration_target: c118, on_board: c114, sum: c117}
+    c87: {energy: c93, at_soil_sample: c153, calibration_target: c162, on_board: c102, sum: c119}
+    c88: {store_of: c112, energy: c123, energycost: c107, calibration_target: c124, sum: c122}
+    c89: {energy: c161, at_soil_sample: c157, channel_free: c119, calibration_target: c129, on_board: c103}
+    c9: {energy: c53, energycost: c78, at_soil_sample: c76, channel_free: c65, on_board: c57, sum: c61}
+    c90: {store_of: c157, energy: c99, channel_free: c120, calibration_target: c132, on_board: c110}
+    c91: {store_of: c116, energycost: c94, calibration_target: c141, on_board: c123, sum: c155}
+    c92: {store_of: c153, energy: c94, calibration_target: c134, on_board: c107, sum: c120}
+    c93: {at_soil_sample: c214, calibration_target: c177, on_board: c208, sum: c197}
+    c94: {store_of: c214, calibration_target: c183, on_board: c207, sum: c218}
+    c95: {store_of: c197, at_soil_sample: c218, calibration_target: c212, on_board: c193}
+    c96: {store_of: c208, at_soil_sample: c207, calibration_target: c180, sum: c193}
+    c97: {store_of: c177, at_soil_sample: c183, on_board: c180, sum: c212}
+    c98: {channel_free: c214, calibration_target: c179, on_board: c209, sum: c198}
+    c99: {store_of: c198, channel_free: c218, calibration_target: c174, on_board: c194}
+  Init: c1
+  Inv_edge_map:
+    c1: {store_of: c1}
+    c10: {channel_free: c8, calibration_target: c2}
+    c100: {energy: c84, energycost: c41, at_soil_sample: c40, on_board: c81}
+    c101: {energy: c77, energycost: c56, at_soil_sample: c55, calibration_target: c81}
+    c102: {store_of: c83, energycost: c85, channel_free: c82, on_board: c87}
+    c103: {store_of: c51, energycost: c48, on_board: c89, sum: c82}
+    c104: {store_of: c40, energy: c82, energycost: c37, on_board: c79}
+    c105: {store_of: c59, energycost: c57, calibration_target: c82, on_board: c78}
+    c106: {store_of: c84, energycost: c73, at_soil_sample: c82, on_board: c75}
+    c107: {energycost: c88, at_soil_sample: c83, channel_free: c84, on_board: c92}
+    c108: {energycost: c49, channel_free: c51, on_board: c69, sum: c83}
+    c109: {energycost: c58, channel_free: c59, calibration_target: c83, on_board: c66}
+    c11: {calibration_target: c3, sum: c8}
+    c110: {energycost: c52, at_soil_sample: c51, on_board: c90, sum: c84}
+    c111: {energycost: c60, at_soil_sample: c59, calibration_target: c84, on_board: c77}
+    c112: {store_of: c88, at_soil_sample: c85, channel_free: c73, on_board: c71}
+    c113: {store_of: c49, channel_free: c48, on_board: c68, sum: c85}
+    c114: {store_of: c38, energy: c85, channel_free: c37, on_board: c86}
+    c115: {store_of: c58, channel_free: c57, calibration_target: c85, on_board: c65}
+    c116: {store_of: c91, energy: c71, at_soil_sample: c86, channel_free: c74}
+    c117: {store_of: c44, energy: c68, channel_free: c43, sum: c86}
+    c118: {store_of: c54, energy: c65, channel_free: c53, calibration_target: c86}
+    c119: {store_of: c69, energycost: c68, channel_free: c89, sum: c87}
+    c12: {calibration_target: c4, on_board: c8}
+    c120: {energycost: c70, at_soil_sample: c69, channel_free: c90, sum: c92}
+    c121: {energycost: c62, channel_free: c63, calibration_target: c69, sum: c66}
+    c122: {at_soil_sample: c49, channel_free: c52, on_board: c70, sum: c88}
+    c123: {energy: c88, at_soil_sample: c38, channel_free: c41, on_board: c91}
+    c124: {at_soil_sample: c58, channel_free: c60, calibration_target: c88, on_board: c67}
+    c125: {store_of: c62, channel_free: c61, calibration_target: c68, sum: c65}
+    c126: {channel_free: c50, calibration_target: c49, on_board: c62, sum: c58}
+    c127: {energy: c62, channel_free: c45, calibration_target: c44, sum: c54}
+    c128: {at_soil_sample: c62, channel_free: c64, calibration_target: c70, sum: c67}
+    c129: {store_of: c63, energycost: c61, calibration_target: c89, sum: c78}
+    c13: {energy: c8, calibration_target: c5}
+    c130: {energycost: c50, calibration_target: c51, on_board: c63, sum: c59}
+    c131: {energy: c63, energycost: c45, calibration_target: c46, sum: c55}
+    c132: {energycost: c64, at_soil_sample: c63, calibration_target: c90, sum: c77}
+    c133: {store_of: c77, energycost: c76, at_soil_sample: c78, calibration_target: c75}
+    c134: {energycost: c67, at_soil_sample: c66, channel_free: c77, calibration_target: c92}
+    c135: {store_of: c67, at_soil_sample: c65, channel_free: c76, calibration_target: c71}
+    c136: {store_of: c64, at_soil_sample: c61, calibration_target: c72, sum: c76}
+    c137: {store_of: c60, at_soil_sample: c57, calibration_target: c73, on_board: c76}
+    c138: {store_of: c56, energy: c76, at_soil_sample: c53, calibration_target: c74}
+    c139: {store_of: c50, calibration_target: c48, on_board: c61, sum: c57}
+    c14: {energycost: c8, calibration_target: c6}
+    c140: {store_of: c42, energy: c57, calibration_target: c37, on_board: c53}
+    c141: {energy: c67, at_soil_sample: c54, channel_free: c56, calibration_target: c91}
+    c142: {energy: c64, at_soil_sample: c45, calibration_target: c47, sum: c56}
+    c143: {energy: c60, at_soil_sample: c42, calibration_target: c41, on_board: c56}
+    c144: {store_of: c55, energy: c78, energycost: c53, calibration_target: c79}
+    c145: {energy: c59, energycost: c42, calibration_target: c40, on_board: c55}
+    c146: {energy: c58, channel_free: c42, calibration_target: c38, on_board: c54}
+    c147: {store_of: c45, energy: c61, calibration_target: c43, sum: c53}
+    c148: {store_of: c52, at_soil_sample: c48, on_board: c72, sum: c73}
+    c149: {at_soil_sample: c50, calibration_target: c52, on_board: c64, sum: c60}
+    c15: {at_soil_sample: c8, calibration_target: c7}
+    c150: {energy: c52, at_soil_sample: c39, on_board: c47, sum: c41}
+    c151: {energy: c51, energycost: c39, on_board: c46, sum: c40}
+    c152: {energy: c50, calibration_target: c39, on_board: c45, sum: c42}
+    c153: {store_of: c92, energycost: c71, at_soil_sample: c87, channel_free: c75}
+    c154: {store_of: c70, at_soil_sample: c68, channel_free: c72, sum: c71}
+    c155: {energy: c70, at_soil_sample: c44, channel_free: c47, sum: c91}
+    c156: {store_of: c41, energy: c73, at_soil_sample: c37, on_board: c74}
+    c157: {store_of: c90, energycost: c72, at_soil_sample: c89, sum: c75}
+    c158: {store_of: c47, energy: c72, at_soil_sample: c43, sum: c74}
+    c159: {store_of: c39, energy: c48, on_board: c43, sum: c37}
+    c16: {store_of: c3, sum: c1}
+    c160: {energy: c49, channel_free: c39, on_board: c44, sum: c38}
+    c161: {store_of: c46, energy: c89, energycost: c43, sum: c79}
+    c162: {store_of: c66, energycost: c65, channel_free: c78, calibration_target: c87}
+    c163: {store_of: c145, energy: c105, energycost: c140, calibration_target: c104, on_board: c144}
+    c164: {store_of: c146, energy: c115, channel_free: c140, calibration_target: c114, on_board: c118}
+    c165: {store_of: c152, energy: c139, calibration_target: c159, on_board: c147, sum: c140}
+    c166: {store_of: c143, energy: c137, at_soil_sample: c140, calibration_target: c156, on_board: c138}
+    c167: {store_of: c134, energycost: c135, at_soil_sample: c162, channel_free: c133, calibration_target: c153}
+    c168: {store_of: c128, at_soil_sample: c125, channel_free: c136, calibration_target: c154, sum: c135}
+    c169: {store_of: c124, at_soil_sample: c115, channel_free: c137, calibration_target: c112, on_board: c135}
+    c17: {channel_free: c3, sum: c2}
+    c170: {store_of: c141, energy: c135, at_soil_sample: c118, channel_free: c138, calibration_target: c116}
+    c171: {store_of: c142, energy: c136, at_soil_sample: c147, calibration_target: c158, sum: c138}
+    c172: {energy: c128, at_soil_sample: c127, channel_free: c142, calibration_target: c155, sum: c141}
+    c173: {energy: c149, at_soil_sample: c152, calibration_target: c150, on_board: c142, sum: c143}
+    c174: {energy: c132, energycost: c142, at_soil_sample: c131, calibration_target: c99, sum: c101}
+    c175: {energy: c124, at_soil_sample: c146, channel_free: c143, calibration_target: c123, on_board: c141}
+    c176: {energy: c111, energycost: c143, at_soil_sample: c145, calibration_target: c100, on_board: c101}
+    c177: {store_of: c97, energy: c162, energycost: c118, channel_free: c144, calibration_target: c93}
+    c178: {store_of: c131, energy: c129, energycost: c147, calibration_target: c161, sum: c144}
+    c179: {store_of: c101, energy: c133, energycost: c138, at_soil_sample: c144, calibration_target: c98}
+    c18: {on_board: c3, sum: c4}
+    c180: {energy: c109, energycost: c146, channel_free: c145, calibration_target: c96, on_board: c97}
+    c181: {energy: c130, energycost: c152, calibration_target: c151, on_board: c131, sum: c145}
+    c182: {energy: c126, channel_free: c152, calibration_target: c160, on_board: c127, sum: c146}
+    c183: {energy: c134, energycost: c141, at_soil_sample: c97, channel_free: c101, calibration_target: c94}
+    c184: {store_of: c110, energycost: c148, at_soil_sample: c103, on_board: c157, sum: c106}
+    c185: {store_of: c122, at_soil_sample: c113, channel_free: c148, on_board: c154, sum: c112}
+    c186: {store_of: c149, at_soil_sample: c139, calibration_target: c148, on_board: c136, sum: c137}
+    c187: {store_of: c150, energy: c148, at_soil_sample: c159, on_board: c158, sum: c156}
+    c188: {at_soil_sample: c126, channel_free: c149, calibration_target: c122, on_board: c128, sum: c124}
+    c189: {energycost: c149, at_soil_sample: c130, calibration_target: c110, on_board: c132, sum: c111}
+    c19: {energy: c3, sum: c5}
+    c190: {store_of: c121, energycost: c125, channel_free: c129, calibration_target: c119, sum: c162}
+    c191: {store_of: c109, energycost: c115, channel_free: c105, calibration_target: c102, on_board: c162}
+    c192: {store_of: c151, energy: c103, energycost: c159, on_board: c161, sum: c104}
+    c193: {energy: c108, energycost: c160, channel_free: c151, on_board: c95, sum: c96}
+    c194: {energy: c110, energycost: c150, at_soil_sample: c151, on_board: c99, sum: c100}
+    c195: {store_of: c160, energy: c113, channel_free: c159, on_board: c117, sum: c114}
+    c196: {energy: c122, at_soil_sample: c160, channel_free: c150, on_board: c155, sum: c123}
+    c197: {store_of: c95, energy: c119, energycost: c117, channel_free: c161, sum: c93}
+    c198: {store_of: c99, energy: c157, energycost: c158, at_soil_sample: c161, sum: c98}
+    c199: {energycost: c122, at_soil_sample: c108, channel_free: c110, on_board: c120, sum: c107}
+    c2: {channel_free: c1}
+    c20: {energycost: c3, sum: c6}
+    c200: {energycost: c128, at_soil_sample: c121, channel_free: c132, calibration_target: c120, sum: c134}
+    c201: {store_of: c130, energycost: c139, calibration_target: c103, on_board: c129, sum: c105}
+    c202: {store_of: c132, energycost: c136, at_soil_sample: c129, calibration_target: c157, sum: c133}
+    c203: {store_of: c108, energycost: c113, channel_free: c103, on_board: c119, sum: c102}
+    c204: {energycost: c126, channel_free: c130, calibration_target: c108, on_board: c121, sum: c109}
+    c205: {energycost: c124, at_soil_sample: c109, channel_free: c111, calibration_target: c107, on_board: c134}
+    c206: {store_of: c123, energy: c112, at_soil_sample: c114, channel_free: c156, on_board: c116}
+    c207: {energy: c107, energycost: c123, at_soil_sample: c96, channel_free: c100, on_board: c94}
+    c208: {store_of: c96, energy: c102, energycost: c114, channel_free: c104, on_board: c93}
+    c209: {store_of: c100, energy: c106, energycost: c156, at_soil_sample: c104, on_board: c98}
+    c21: {at_soil_sample: c3, sum: c7}
+    c210: {store_of: c111, energycost: c137, at_soil_sample: c105, calibration_target: c106, on_board: c133}
+    c211: {store_of: c107, energycost: c112, at_soil_sample: c102, channel_free: c106, on_board: c153}
+    c212: {energy: c121, energycost: c127, channel_free: c131, calibration_target: c95, sum: c97}
+    c213: {store_of: c120, energycost: c154, at_soil_sample: c119, channel_free: c157, sum: c153}
+    c214: {store_of: c94, energy: c153, energycost: c116, at_soil_sample: c93, channel_free: c98}
+    c215: {store_of: c126, channel_free: c139, calibration_target: c113, on_board: c125, sum: c115}
+    c216: {store_of: c127, energy: c125, channel_free: c147, calibration_target: c117, sum: c118}
+    c217: {store_of: c155, energy: c154, at_soil_sample: c117, channel_free: c158, sum: c116}
+    c218: {energy: c120, energycost: c155, at_soil_sample: c95, channel_free: c99, sum: c94}
+    c219: {store_of: c200, energycost: c168, at_soil_sample: c190, channel_free: c202, calibration_target: c213,
+      sum: c167}
+    c22: {store_of: c2, channel_free: c1}
+    c220: {store_of: c188, at_soil_sample: c215, channel_free: c186, calibration_target: c185, on_board: c168,
+      sum: c169}
+    c221: {store_of: c172, energy: c168, at_soil_sample: c216, channel_free: c171, calibration_target: c217,
+      sum: c170}
+    c222: {store_of: c205, energycost: c169, at_soil_sample: c191, channel_free: c210, calibration_target: c211,
+      on_board: c167}
+    c223: {store_of: c175, energy: c169, at_soil_sample: c164, channel_free: c166, calibration_target: c206,
+      on_board: c170}
+    c224: {store_of: c176, energy: c210, energycost: c166, at_soil_sample: c163, calibration_target: c209,
+      on_board: c179}
+    c225: {store_of: c173, energy: c186, at_soil_sample: c165, calibration_target: c187, on_board: c171,
+      sum: c166}
+    c226: {store_of: c183, energy: c167, energycost: c170, at_soil_sample: c177, channel_free: c179,
+      calibration_target: c214}
+    c227: {store_of: c180, energy: c191, energycost: c164, channel_free: c163, calibration_target: c208,
+      on_board: c177}
+    c228: {store_of: c182, energy: c215, channel_free: c165, calibration_target: c195, on_board: c216,
+      sum: c164}
+    c229: {store_of: c181, energy: c201, energycost: c165, calibration_target: c192, on_board: c178,
+      sum: c163}
+    c23: {channel_free: c4, on_board: c2}
+    c230: {store_of: c218, energy: c213, energycost: c217, at_soil_sample: c197, channel_free: c198,
+      sum: c214}
+    c231: {store_of: c207, energy: c211, energycost: c206, at_soil_sample: c208, channel_free: c209,
+      on_board: c214}
+    c232: {store_of: c204, energycost: c215, channel_free: c201, calibration_target: c203, on_board: c190,
+      sum: c191}
+    c233: {store_of: c212, energy: c190, energycost: c216, channel_free: c178, calibration_target: c197,
+      sum: c177}
+    c234: {store_of: c196, energy: c185, at_soil_sample: c195, channel_free: c187, on_board: c217,
+      sum: c206}
+    c235: {store_of: c189, energycost: c186, at_soil_sample: c201, calibration_target: c184, on_board: c202,
+      sum: c210}
+    c236: {store_of: c199, energycost: c185, at_soil_sample: c203, channel_free: c184, on_board: c213,
+      sum: c211}
+    c237: {energy: c200, energycost: c172, at_soil_sample: c212, channel_free: c174, calibration_target: c218,
+      sum: c183}
+    c238: {energy: c204, energycost: c182, channel_free: c181, calibration_target: c193, on_board: c212,
+      sum: c180}
+    c239: {energy: c199, energycost: c196, at_soil_sample: c193, channel_free: c194, on_board: c218,
+      sum: c207}
+    c24: {energy: c2, channel_free: c5}
+    c240: {store_of: c194, energy: c184, energycost: c187, at_soil_sample: c192, on_board: c198,
+      sum: c209}
+    c241: {energy: c205, energycost: c175, at_soil_sample: c180, channel_free: c176, calibration_target: c207,
+      on_board: c183}
+    c242: {energy: c189, energycost: c173, at_soil_sample: c181, calibration_target: c194, on_board: c174,
+      sum: c176}
+    c243: {energy: c188, at_soil_sample: c182, channel_free: c173, calibration_target: c196, on_board: c172,
+      sum: c175}
+    c244: {energycost: c188, at_soil_sample: c204, channel_free: c189, calibration_target: c199, on_board: c200,
+      sum: c205}
+    c245: {store_of: c174, energy: c202, energycost: c171, at_soil_sample: c178, calibration_target: c198,
+      sum: c179}
+    c246: {store_of: c193, energy: c203, energycost: c195, channel_free: c192, on_board: c197,
+      sum: c208}
+    c247: {store_of: c242, energy: c235, energycost: c225, at_soil_sample: c229, calibration_target: c240,
+      on_board: c245, sum: c224}
+    c248: {energy: c244, energycost: c243, at_soil_sample: c238, channel_free: c242, calibration_target: c239,
+      on_board: c237, sum: c241}
+    c249: {store_of: c244, energycost: c220, at_soil_sample: c232, channel_free: c235, calibration_target: c236,
+      on_board: c219, sum: c222}
+    c25: {energycost: c2, channel_free: c6}
+    c250: {store_of: c238, energy: c232, energycost: c228, channel_free: c229, calibration_target: c246,
+      on_board: c233, sum: c227}
+    c251: {store_of: c237, energy: c219, energycost: c221, at_soil_sample: c233, channel_free: c245,
+      calibration_target: c230, sum: c226}
+    c252: {store_of: c239, energy: c236, energycost: c234, at_soil_sample: c246, channel_free: c240,
+      on_board: c230, sum: c231}
+    c253: {store_of: c241, energy: c222, energycost: c223, at_soil_sample: c227, channel_free: c224,
+      calibration_target: c231, on_board: c226}
+    c254: {store_of: c243, energy: c220, at_soil_sample: c228, channel_free: c225, calibration_target: c234,
+      on_board: c221, sum: c223}
+    c255: {store_of: c248, energy: c249, energycost: c254, at_soil_sample: c250, channel_free: c247,
+      calibration_target: c252, on_board: c251, sum: c253}
+    c26: {at_soil_sample: c2, channel_free: c7}
+    c27: {store_of: c4, on_board: c1}
+    c28: {store_of: c5, energy: c1}
+    c29: {store_of: c6, energycost: c1}
+    c3: {sum: c1}
+    c30: {store_of: c7, at_soil_sample: c1}
+    c31: {at_soil_sample: c4, on_board: c7}
+    c32: {energy: c7, at_soil_sample: c5}
+    c33: {energycost: c7, at_soil_sample: c6}
+    c34: {energycost: c4, on_board: c6}
+    c35: {energy: c6, energycost: c5}
+    c36: {energy: c4, on_board: c5}
+    c37: {store_of: c36, energy: c27, on_board: c28}
+    c38: {energy: c23, channel_free: c36, on_board: c24}
+    c39: {energy: c18, on_board: c19, sum: c36}
+    c4: {on_board: c1}
+    c40: {energy: c34, energycost: c36, on_board: c35}
+    c41: {energy: c31, at_soil_sample: c36, on_board: c32}
+    c42: {energy: c12, calibration_target: c36, on_board: c13}
+    c43: {store_of: c19, energy: c16, sum: c28}
+    c44: {energy: c17, channel_free: c19, sum: c24}
+    c45: {energy: c11, calibration_target: c19, sum: c13}
+    c46: {energy: c20, energycost: c19, sum: c35}
+    c47: {energy: c21, at_soil_sample: c19, sum: c32}
+    c48: {store_of: c18, on_board: c16, sum: c27}
+    c49: {channel_free: c18, on_board: c17, sum: c23}
+    c5: {energy: c1}
+    c50: {calibration_target: c18, on_board: c11, sum: c12}
+    c51: {energycost: c18, on_board: c20, sum: c34}
+    c52: {at_soil_sample: c18, on_board: c21, sum: c31}
+    c53: {store_of: c13, energy: c9, calibration_target: c28}
+    c54: {energy: c10, channel_free: c13, calibration_target: c24}
+    c55: {energy: c14, energycost: c13, calibration_target: c35}
+    c56: {energy: c15, at_soil_sample: c13, calibration_target: c32}
+    c57: {store_of: c12, calibration_target: c27, on_board: c9}
+    c58: {channel_free: c12, calibration_target: c23, on_board: c10}
+    c59: {energycost: c12, calibration_target: c34, on_board: c14}
+    c6: {energycost: c1}
+    c60: {at_soil_sample: c12, calibration_target: c31, on_board: c15}
+    c61: {store_of: c11, calibration_target: c16, sum: c9}
+    c62: {channel_free: c11, calibration_target: c17, sum: c10}
+    c63: {energycost: c11, calibration_target: c20, sum: c14}
+    c64: {at_soil_sample: c11, calibration_target: c21, sum: c15}
+    c65: {store_of: c10, channel_free: c9, calibration_target: c22}
+    c66: {energycost: c10, channel_free: c14, calibration_target: c25}
+    c67: {at_soil_sample: c10, channel_free: c15, calibration_target: c26}
+    c68: {store_of: c17, channel_free: c16, sum: c22}
+    c69: {energycost: c17, channel_free: c20, sum: c25}
+    c7: {at_soil_sample: c1}
+    c70: {at_soil_sample: c17, channel_free: c21, sum: c26}
+    c71: {store_of: c26, at_soil_sample: c22, channel_free: c30}
+    c72: {store_of: c21, at_soil_sample: c16, sum: c30}
+    c73: {store_of: c31, at_soil_sample: c27, on_board: c30}
+    c74: {store_of: c32, energy: c30, at_soil_sample: c28}
+    c75: {store_of: c33, energycost: c30, at_soil_sample: c29}
+    c76: {store_of: c15, at_soil_sample: c9, calibration_target: c30}
+    c77: {energycost: c15, at_soil_sample: c14, calibration_target: c33}
+    c78: {store_of: c14, energycost: c9, calibration_target: c29}
+    c79: {store_of: c35, energy: c29, energycost: c28}
+    c8: {calibration_target: c1}
+    c80: {energy: c25, energycost: c24, channel_free: c35}
+    c81: {energy: c33, energycost: c32, at_soil_sample: c35}
+    c82: {store_of: c34, energycost: c27, on_board: c29}
+    c83: {energycost: c23, channel_free: c34, on_board: c25}
+    c84: {energycost: c31, at_soil_sample: c34, on_board: c33}
+    c85: {store_of: c23, channel_free: c27, on_board: c22}
+    c86: {store_of: c24, energy: c22, channel_free: c28}
+    c87: {store_of: c25, energycost: c22, channel_free: c29}
+    c88: {at_soil_sample: c23, channel_free: c31, on_board: c26}
+    c89: {store_of: c20, energycost: c16, sum: c29}
+    c9: {store_of: c8, calibration_target: c1}
+    c90: {energycost: c21, at_soil_sample: c20, sum: c33}
+    c91: {energy: c26, at_soil_sample: c24, channel_free: c32}
+    c92: {energycost: c26, at_soil_sample: c25, channel_free: c33}
+    c93: {store_of: c80, energy: c87, energycost: c86, channel_free: c79}
+    c94: {energy: c92, energycost: c91, at_soil_sample: c80, channel_free: c81}
+    c95: {energy: c69, energycost: c44, channel_free: c46, sum: c80}
+    c96: {energy: c83, energycost: c38, channel_free: c40, on_board: c80}
+    c97: {energy: c66, energycost: c54, channel_free: c55, calibration_target: c80}
+    c98: {store_of: c81, energy: c75, energycost: c74, at_soil_sample: c79}
+    c99: {energy: c90, energycost: c47, at_soil_sample: c46, sum: c81}
+  Node_map:
+    c1: !!set {store_of: null}
+    c10: !!set {channel_free: null, calibration_target: null}
+    c100: !!set {energy: null, energycost: null, at_soil_sample: null, on_board: null}
+    c101: !!set {energy: null, energycost: null, at_soil_sample: null, calibration_target: null}
+    c102: !!set {store_of: null, energycost: null, channel_free: null, on_board: null}
+    c103: !!set {store_of: null, energycost: null, on_board: null, sum: null}
+    c104: !!set {store_of: null, energy: null, energycost: null, on_board: null}
+    c105: !!set {store_of: null, energycost: null, calibration_target: null, on_board: null}
+    c106: !!set {store_of: null, energycost: null, at_soil_sample: null, on_board: null}
+    c107: !!set {energycost: null, at_soil_sample: null, channel_free: null, on_board: null}
+    c108: !!set {energycost: null, channel_free: null, on_board: null, sum: null}
+    c109: !!set {energycost: null, channel_free: null, calibration_target: null, on_board: null}
+    c11: !!set {calibration_target: null, sum: null}
+    c110: !!set {energycost: null, at_soil_sample: null, on_board: null, sum: null}
+    c111: !!set {energycost: null, at_soil_sample: null, calibration_target: null, on_board: null}
+    c112: !!set {store_of: null, at_soil_sample: null, channel_free: null, on_board: null}
+    c113: !!set {store_of: null, channel_free: null, on_board: null, sum: null}
+    c114: !!set {store_of: null, energy: null, channel_free: null, on_board: null}
+    c115: !!set {store_of: null, channel_free: null, calibration_target: null, on_board: null}
+    c116: !!set {store_of: null, energy: null, at_soil_sample: null, channel_free: null}
+    c117: !!set {store_of: null, energy: null, channel_free: null, sum: null}
+    c118: !!set {store_of: null, energy: null, channel_free: null, calibration_target: null}
+    c119: !!set {store_of: null, energycost: null, channel_free: null, sum: null}
+    c12: !!set {calibration_target: null, on_board: null}
+    c120: !!set {energycost: null, at_soil_sample: null, channel_free: null, sum: null}
+    c121: !!set {energycost: null, channel_free: null, calibration_target: null, sum: null}
+    c122: !!set {at_soil_sample: null, channel_free: null, on_board: null, sum: null}
+    c123: !!set {energy: null, at_soil_sample: null, channel_free: null, on_board: null}
+    c124: !!set {at_soil_sample: null, channel_free: null, calibration_target: null, on_board: null}
+    c125: !!set {store_of: null, channel_free: null, calibration_target: null, sum: null}
+    c126: !!set {channel_free: null, calibration_target: null, on_board: null, sum: null}
+    c127: !!set {energy: null, channel_free: null, calibration_target: null, sum: null}
+    c128: !!set {at_soil_sample: null, channel_free: null, calibration_target: null, sum: null}
+    c129: !!set {store_of: null, energycost: null, calibration_target: null, sum: null}
+    c13: !!set {energy: null, calibration_target: null}
+    c130: !!set {energycost: null, calibration_target: null, on_board: null, sum: null}
+    c131: !!set {energy: null, energycost: null, calibration_target: null, sum: null}
+    c132: !!set {energycost: null, at_soil_sample: null, calibration_target: null, sum: null}
+    c133: !!set {store_of: null, energycost: null, at_soil_sample: null, calibration_target: null}
+    c134: !!set {energycost: null, at_soil_sample: null, channel_free: null, calibration_target: null}
+    c135: !!set {store_of: null, at_soil_sample: null, channel_free: null, calibration_target: null}
+    c136: !!set {store_of: null, at_soil_sample: null, calibration_target: null, sum: null}
+    c137: !!set {store_of: null, at_soil_sample: null, calibration_target: null, on_board: null}
+    c138: !!set {store_of: null, energy: null, at_soil_sample: null, calibration_target: null}
+    c139: !!set {store_of: null, calibration_target: null, on_board: null, sum: null}
+    c14: !!set {energycost: null, calibration_target: null}
+    c140: !!set {store_of: null, energy: null, calibration_target: null, on_board: null}
+    c141: !!set {energy: null, at_soil_sample: null, channel_free: null, calibration_target: null}
+    c142: !!set {energy: null, at_soil_sample: null, calibration_target: null, sum: null}
+    c143: !!set {energy: null, at_soil_sample: null, calibration_target: null, on_board: null}
+    c144: !!set {store_of: null, energy: null, energycost: null, calibration_target: null}
+    c145: !!set {energy: null, energycost: null, calibration_target: null, on_board: null}
+    c146: !!set {energy: null, channel_free: null, calibration_target: null, on_board: null}
+    c147: !!set {store_of: null, energy: null, calibration_target: null, sum: null}
+    c148: !!set {store_of: null, at_soil_sample: null, on_board: null, sum: null}
+    c149: !!set {at_soil_sample: null, calibration_target: null, on_board: null, sum: null}
+    c15: !!set {at_soil_sample: null, calibration_target: null}
+    c150: !!set {energy: null, at_soil_sample: null, on_board: null, sum: null}
+    c151: !!set {energy: null, energycost: null, on_board: null, sum: null}
+    c152: !!set {energy: null, calibration_target: null, on_board: null, sum: null}
+    c153: !!set {store_of: null, energycost: null, at_soil_sample: null, channel_free: null}
+    c154: !!set {store_of: null, at_soil_sample: null, channel_free: null, sum: null}
+    c155: !!set {energy: null, at_soil_sample: null, channel_free: null, sum: null}
+    c156: !!set {store_of: null, energy: null, at_soil_sample: null, on_board: null}
+    c157: !!set {store_of: null, energycost: null, at_soil_sample: null, sum: null}
+    c158: !!set {store_of: null, energy: null, at_soil_sample: null, sum: null}
+    c159: !!set {store_of: null, energy: null, on_board: null, sum: null}
+    c16: !!set {store_of: null, sum: null}
+    c160: !!set {energy: null, channel_free: null, on_board: null, sum: null}
+    c161: !!set {store_of: null, energy: null, energycost: null, sum: null}
+    c162: !!set {store_of: null, energycost: null, channel_free: null, calibration_target: null}
+    c163: !!set {store_of: null, energy: null, energycost: null, calibration_target: null,
+      on_board: null}
+    c164: !!set {store_of: null, energy: null, channel_free: null, calibration_target: null, on_board: null}
+    c165: !!set {store_of: null, energy: null, calibration_target: null, on_board: null, sum: null}
+    c166: !!set {store_of: null, energy: null, at_soil_sample: null, calibration_target: null, on_board: null}
+    c167: !!set {store_of: null, energycost: null, at_soil_sample: null, channel_free: null, calibration_target: null}
+    c168: !!set {store_of: null, at_soil_sample: null, channel_free: null, calibration_target: null, sum: null}
+    c169: !!set {store_of: null, at_soil_sample: null, channel_free: null, calibration_target: null, on_board: null}
+    c17: !!set {channel_free: null, sum: null}
+    c170: !!set {store_of: null, energy: null, at_soil_sample: null, channel_free: null, calibration_target: null}
+    c171: !!set {store_of: null, energy: null, at_soil_sample: null, calibration_target: null, sum: null}
+    c172: !!set {energy: null, at_soil_sample: null, channel_free: null, calibration_target: null, sum: null}
+    c173: !!set {energy: null, at_soil_sample: null, calibration_target: null, on_board: null, sum: null}
+    c174: !!set {energy: null, energycost: null, at_soil_sample: null, calibration_target: null, sum: null}
+    c175: !!set {energy: null, at_soil_sample: null, channel_free: null, calibration_target: null, on_board: null}
+    c176: !!set {energy: null, energycost: null, at_soil_sample: null, calibration_target: null, on_board: null}
+    c177: !!set {store_of: null, energy: null, energycost: null, channel_free: null,
+      calibration_target: null}
+    c178: !!set {store_of: null, energy: null, energycost: null, calibration_target: null,
+      sum: null}
+    c179: !!set {store_of: null, energy: null, energycost: null, at_soil_sample: null,
+      calibration_target: null}
+    c18: !!set {on_board: null, sum: null}
+    c180: !!set {energy: null, energycost: null, channel_free: null, calibration_target: null, on_board: null}
+    c181: !!set {energy: null, energycost: null, calibration_target: null, on_board: null, sum: null}
+    c182: !!set {energy: null, channel_free: null, calibration_target: null, on_board: null, sum: null}
+    c183: !!set {energy: null, energycost: null, at_soil_sample: null, channel_free: null, calibration_target: null}
+    c184: !!set {store_of: null, energycost: null, at_soil_sample: null, on_board: null, sum: null}
+    c185: !!set {store_of: null, at_soil_sample: null, channel_free: null, on_board: null, sum: null}
+    c186: !!set {store_of: null, at_soil_sample: null, calibration_target: null, on_board: null, sum: null}
+    c187: !!set {store_of: null, energy: null, at_soil_sample: null, on_board: null, sum: null}
+    c188: !!set {at_soil_sample: null, channel_free: null, calibration_target: null, on_board: null, sum: null}
+    c189: !!set {energycost: null, at_soil_sample: null, calibration_target: null, on_board: null, sum: null}
+    c19: !!set {energy: null, sum: null}
+    c190: !!set {store_of: null, energycost: null, channel_free: null, calibration_target: null, sum: null}
+    c191: !!set {store_of: null, energycost: null, channel_free: null, calibration_target: null, on_board: null}
+    c192: !!set {store_of: null, energy: null, energycost: null, on_board: null,
+      sum: null}
+    c193: !!set {energy: null, energycost: null, channel_free: null, on_board: null, sum: null}
+    c194: !!set {energy: null, energycost: null, at_soil_sample: null, on_board: null, sum: null}
+    c195: !!set {store_of: null, energy: null, channel_free: null, on_board: null, sum: null}
+    c196: !!set {energy: null, at_soil_sample: null, channel_free: null, on_board: null, sum: null}
+    c197: !!set {store_of: null, energy: null, energycost: null, channel_free: null,
+      sum: null}
+    c198: !!set {store_of: null, energy: null, energycost: null, at_soil_sample: null,
+      sum: null}
+    c199: !!set {energycost: null, at_soil_sample: null, channel_free: null, on_board: null, sum: null}
+    c2: !!set {channel_free: null}
+    c20: !!set {energycost: null, sum: null}
+    c200: !!set {energycost: null, at_soil_sample: null, channel_free: null, calibration_target: null, sum: null}
+    c201: !!set {store_of: null, energycost: null, calibration_target: null, on_board: null, sum: null}
+    c202: !!set {store_of: null, energycost: null, at_soil_sample: null, calibration_target: null, sum: null}
+    c203: !!set {store_of: null, energycost: null, channel_free: null, on_board: null, sum: null}
+    c204: !!set {energycost: null, channel_free: null, calibration_target: null, on_board: null, sum: null}
+    c205: !!set {energycost: null, at_soil_sample: null, channel_free: null, calibration_target: null, on_board: null}
+    c206: !!set {store_of: null, energy: null, at_soil_sample: null, channel_free: null, on_board: null}
+    c207: !!set {energy: null, energycost: null, at_soil_sample: null, channel_free: null, on_board: null}
+    c208: !!set {store_of: null, energy: null, energycost: null, channel_free: null,
+      on_board: null}
+    c209: !!set {store_of: null, energy: null, energycost: null, at_soil_sample: null,
+      on_board: null}
+    c21: !!set {at_soil_sample: null, sum: null}
+    c210: !!set {store_of: null, energycost: null, at_soil_sample: null, calibration_target: null, on_board: null}
+    c211: !!set {store_of: null, energycost: null, at_soil_sample: null, channel_free: null, on_board: null}
+    c212: !!set {energy: null, energycost: null, channel_free: null, calibration_target: null, sum: null}
+    c213: !!set {store_of: null, energycost: null, at_soil_sample: null, channel_free: null, sum: null}
+    c214: !!set {store_of: null, energy: null, energycost: null, at_soil_sample: null,
+      channel_free: null}
+    c215: !!set {store_of: null, channel_free: null, calibration_target: null, on_board: null, sum: null}
+    c216: !!set {store_of: null, energy: null, channel_free: null, calibration_target: null, sum: null}
+    c217: !!set {store_of: null, energy: null, at_soil_sample: null, channel_free: null, sum: null}
+    c218: !!set {energy: null, energycost: null, at_soil_sample: null, channel_free: null, sum: null}
+    c219: !!set {store_of: null, energycost: null, at_soil_sample: null, channel_free: null, calibration_target: null,
+      sum: null}
+    c22: !!set {store_of: null, channel_free: null}
+    c220: !!set {store_of: null, at_soil_sample: null, channel_free: null, calibration_target: null, on_board: null,
+      sum: null}
+    c221: !!set {store_of: null, energy: null, at_soil_sample: null, channel_free: null, calibration_target: null,
+      sum: null}
+    c222: !!set {store_of: null, energycost: null, at_soil_sample: null, channel_free: null, calibration_target: null,
+      on_board: null}
+    c223: !!set {store_of: null, energy: null, at_soil_sample: null, channel_free: null, calibration_target: null,
+      on_board: null}
+    c224: !!set {store_of: null, energy: null, energycost: null, at_soil_sample: null,
+      calibration_target: null, on_board: null}
+    c225: !!set {store_of: null, energy: null, at_soil_sample: null, calibration_target: null, on_board: null,
+      sum: null}
+    c226: !!set {store_of: null, energy: null, energycost: null, at_soil_sample: null,
+      channel_free: null, calibration_target: null}
+    c227: !!set {store_of: null, energy: null, energycost: null, channel_free: null,
+      calibration_target: null, on_board: null}
+    c228: !!set {store_of: null, energy: null, channel_free: null, calibration_target: null, on_board: null,
+      sum: null}
+    c229: !!set {store_of: null, energy: null, energycost: null, calibration_target: null,
+      on_board: null, sum: null}
+    c23: !!set {channel_free: null, on_board: null}
+    c230: !!set {store_of: null, energy: null, energycost: null, at_soil_sample: null,
+      channel_free: null, sum: null}
+    c231: !!set {store_of: null, energy: null, energycost: null, at_soil_sample: null,
+      channel_free: null, on_board: null}
+    c232: !!set {store_of: null, energycost: null, channel_free: null, calibration_target: null, on_board: null,
+      sum: null}
+    c233: !!set {store_of: null, energy: null, energycost: null, channel_free: null,
+      calibration_target: null, sum: null}
+    c234: !!set {store_of: null, energy: null, at_soil_sample: null, channel_free: null, on_board: null,
+      sum: null}
+    c235: !!set {store_of: null, energycost: null, at_soil_sample: null, calibration_target: null, on_board: null,
+      sum: null}
+    c236: !!set {store_of: null, energycost: null, at_soil_sample: null, channel_free: null, on_board: null,
+      sum: null}
+    c237: !!set {energy: null, energycost: null, at_soil_sample: null, channel_free: null, calibration_target: null,
+      sum: null}
+    c238: !!set {energy: null, energycost: null, channel_free: null, calibration_target: null, on_board: null,
+      sum: null}
+    c239: !!set {energy: null, energycost: null, at_soil_sample: null, channel_free: null, on_board: null,
+      sum: null}
+    c24: !!set {energy: null, channel_free: null}
+    c240: !!set {store_of: null, energy: null, energycost: null, at_soil_sample: null,
+      on_board: null, sum: null}
+    c241: !!set {energy: null, energycost: null, at_soil_sample: null, channel_free: null, calibration_target: null,
+      on_board: null}
+    c242: !!set {energy: null, energycost: null, at_soil_sample: null, calibration_target: null, on_board: null,
+      sum: null}
+    c243: !!set {energy: null, at_soil_sample: null, channel_free: null, calibration_target: null, on_board: null,
+      sum: null}
+    c244: !!set {energycost: null, at_soil_sample: null, channel_free: null, calibration_target: null, on_board: null,
+      sum: null}
+    c245: !!set {store_of: null, energy: null, energycost: null, at_soil_sample: null,
+      calibration_target: null, sum: null}
+    c246: !!set {store_of: null, energy: null, energycost: null, channel_free: null,
+      on_board: null, sum: null}
+    c247: !!set {store_of: null, energy: null, energycost: null, at_soil_sample: null,
+      calibration_target: null, on_board: null, sum: null}
+    c248: !!set {energy: null, energycost: null, at_soil_sample: null, channel_free: null, calibration_target: null,
+      on_board: null, sum: null}
+    c249: !!set {store_of: null, energycost: null, at_soil_sample: null, channel_free: null, calibration_target: null,
+      on_board: null, sum: null}
+    c25: !!set {energycost: null, channel_free: null}
+    c250: !!set {store_of: null, energy: null, energycost: null, channel_free: null,
+      calibration_target: null, on_board: null, sum: null}
+    c251: !!set {store_of: null, energy: null, energycost: null, at_soil_sample: null,
+      channel_free: null, calibration_target: null, sum: null}
+    c252: !!set {store_of: null, energy: null, energycost: null, at_soil_sample: null,
+      channel_free: null, on_board: null, sum: null}
+    c253: !!set {store_of: null, energy: null, energycost: null, at_soil_sample: null,
+      channel_free: null, calibration_target: null, on_board: null}
+    c254: !!set {store_of: null, energy: null, at_soil_sample: null, channel_free: null, calibration_target: null,
+      on_board: null, sum: null}
+    c255: !!set {store_of: null, energy: null, energycost: null, at_soil_sample: null,
+      channel_free: null, calibration_target: null, on_board: null, sum: null}
+    c26: !!set {at_soil_sample: null, channel_free: null}
+    c27: !!set {store_of: null, on_board: null}
+    c28: !!set {store_of: null, energy: null}
+    c29: !!set {store_of: null, energycost: null}
+    c3: !!set {sum: null}
+    c30: !!set {store_of: null, at_soil_sample: null}
+    c31: !!set {at_soil_sample: null, on_board: null}
+    c32: !!set {energy: null, at_soil_sample: null}
+    c33: !!set {energycost: null, at_soil_sample: null}
+    c34: !!set {energycost: null, on_board: null}
+    c35: !!set {energy: null, energycost: null}
+    c36: !!set {energy: null, on_board: null}
+    c37: !!set {store_of: null, energy: null, on_board: null}
+    c38: !!set {energy: null, channel_free: null, on_board: null}
+    c39: !!set {energy: null, on_board: null, sum: null}
+    c4: !!set {on_board: null}
+    c40: !!set {energy: null, energycost: null, on_board: null}
+    c41: !!set {energy: null, at_soil_sample: null, on_board: null}
+    c42: !!set {energy: null, calibration_target: null, on_board: null}
+    c43: !!set {store_of: null, energy: null, sum: null}
+    c44: !!set {energy: null, channel_free: null, sum: null}
+    c45: !!set {energy: null, calibration_target: null, sum: null}
+    c46: !!set {energy: null, energycost: null, sum: null}
+    c47: !!set {energy: null, at_soil_sample: null, sum: null}
+    c48: !!set {store_of: null, on_board: null, sum: null}
+    c49: !!set {channel_free: null, on_board: null, sum: null}
+    c5: !!set {energy: null}
+    c50: !!set {calibration_target: null, on_board: null, sum: null}
+    c51: !!set {energycost: null, on_board: null, sum: null}
+    c52: !!set {at_soil_sample: null, on_board: null, sum: null}
+    c53: !!set {store_of: null, energy: null, calibration_target: null}
+    c54: !!set {energy: null, channel_free: null, calibration_target: null}
+    c55: !!set {energy: null, energycost: null, calibration_target: null}
+    c56: !!set {energy: null, at_soil_sample: null, calibration_target: null}
+    c57: !!set {store_of: null, calibration_target: null, on_board: null}
+    c58: !!set {channel_free: null, calibration_target: null, on_board: null}
+    c59: !!set {energycost: null, calibration_target: null, on_board: null}
+    c6: !!set {energycost: null}
+    c60: !!set {at_soil_sample: null, calibration_target: null, on_board: null}
+    c61: !!set {store_of: null, calibration_target: null, sum: null}
+    c62: !!set {channel_free: null, calibration_target: null, sum: null}
+    c63: !!set {energycost: null, calibration_target: null, sum: null}
+    c64: !!set {at_soil_sample: null, calibration_target: null, sum: null}
+    c65: !!set {store_of: null, channel_free: null, calibration_target: null}
+    c66: !!set {energycost: null, channel_free: null, calibration_target: null}
+    c67: !!set {at_soil_sample: null, channel_free: null, calibration_target: null}
+    c68: !!set {store_of: null, channel_free: null, sum: null}
+    c69: !!set {energycost: null, channel_free: null, sum: null}
+    c7: !!set {at_soil_sample: null}
+    c70: !!set {at_soil_sample: null, channel_free: null, sum: null}
+    c71: !!set {store_of: null, at_soil_sample: null, channel_free: null}
+    c72: !!set {store_of: null, at_soil_sample: null, sum: null}
+    c73: !!set {store_of: null, at_soil_sample: null, on_board: null}
+    c74: !!set {store_of: null, energy: null, at_soil_sample: null}
+    c75: !!set {store_of: null, energycost: null, at_soil_sample: null}
+    c76: !!set {store_of: null, at_soil_sample: null, calibration_target: null}
+    c77: !!set {energycost: null, at_soil_sample: null, calibration_target: null}
+    c78: !!set {store_of: null, energycost: null, calibration_target: null}
+    c79: !!set {store_of: null, energy: null, energycost: null}
+    c8: !!set {calibration_target: null}
+    c80: !!set {energy: null, energycost: null, channel_free: null}
+    c81: !!set {energy: null, energycost: null, at_soil_sample: null}
+    c82: !!set {store_of: null, energycost: null, on_board: null}
+    c83: !!set {energycost: null, channel_free: null, on_board: null}
+    c84: !!set {energycost: null, at_soil_sample: null, on_board: null}
+    c85: !!set {store_of: null, channel_free: null, on_board: null}
+    c86: !!set {store_of: null, energy: null, channel_free: null}
+    c87: !!set {store_of: null, energycost: null, channel_free: null}
+    c88: !!set {at_soil_sample: null, channel_free: null, on_board: null}
+    c89: !!set {store_of: null, energycost: null, sum: null}
+    c9: !!set {store_of: null, calibration_target: null}
+    c90: !!set {energycost: null, at_soil_sample: null, sum: null}
+    c91: !!set {energy: null, at_soil_sample: null, channel_free: null}
+    c92: !!set {energycost: null, at_soil_sample: null, channel_free: null}
+    c93: !!set {store_of: null, energy: null, energycost: null, channel_free: null}
+    c94: !!set {energy: null, energycost: null, at_soil_sample: null, channel_free: null}
+    c95: !!set {energy: null, energycost: null, channel_free: null, sum: null}
+    c96: !!set {energy: null, energycost: null, channel_free: null, on_board: null}
+    c97: !!set {energy: null, energycost: null, channel_free: null, calibration_target: null}
+    c98: !!set {store_of: null, energy: null, energycost: null, at_soil_sample: null}
+    c99: !!set {energy: null, energycost: null, at_soil_sample: null, sum: null}
+  Nodes: [c1, c2, c3, c4, c5, c6, c7, c8, c9, c10, c11, c12, c13, c14, c15, c16, c17,
+    c18, c19, c20, c21, c22, c23, c24, c25, c26, c27, c28, c29, c30, c31, c32, c33,
+    c34, c35, c36, c37, c38, c39, c40, c41, c42, c43, c44, c45, c46, c47, c48, c49,
+    c50, c51, c52, c53, c54, c55, c56, c57, c58, c59, c60, c61, c62, c63, c64, c65,
+    c66, c67, c68, c69, c70, c71, c72, c73, c74, c75, c76, c77, c78, c79, c80, c81,
+    c82, c83, c84, c85, c86, c87, c88, c89, c90, c91, c92, c93, c94, c95, c96, c97,
+    c98, c99, c100, c101, c102, c103, c104, c105, c106, c107, c108, c109, c110, c111,
+    c112, c113, c114, c115, c116, c117, c118, c119, c120, c121, c122, c123, c124,
+    c125, c126, c127, c128, c129, c130, c131, c132, c133, c134, c135, c136, c137,
+    c138, c139, c140, c141, c142, c143, c144, c145, c146, c147, c148, c149, c150,
+    c151, c152, c153, c154, c155, c156, c157, c158, c159, c160, c161, c162, c163,
+    c164, c165, c166, c167, c168, c169, c170, c171, c172, c173, c174, c175, c176,
+    c177, c178, c179, c180, c181, c182, c183, c184, c185, c186, c187, c188, c189,
+    c190, c191, c192, c193, c194, c195, c196, c197, c198, c199, c200, c201, c202,
+    c203, c204, c205, c206, c207, c208, c209, c210, c211, c212, c213, c214, c215,
+    c216, c217, c218, c219, c220, c221, c222, c223, c224, c225, c226, c227, c228,
+    c229, c230, c231, c232, c233, c234, c235, c236, c237, c238, c239, c240, c241,
+    c242, c243, c244, c245, c246, c247, c248, c249, c250, c251, c252, c253, c254,
+    c255]
+  Sup: c255

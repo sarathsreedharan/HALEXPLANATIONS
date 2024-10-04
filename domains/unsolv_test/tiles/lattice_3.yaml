@@ -1,0 +1,27 @@
+Lattice:
+  Edge_map:
+    c1: {tile: c1, inc: c4, blank: c6}
+    c2: {tile: c6, inc: c5}
+    c3: {tile: c4, blank: c5}
+    c4: {blank: c7}
+    c5: {tile: c7}
+    c6: {inc: c7}
+  Init: c1
+  Inv_edge_map:
+    c1: {tile: c1}
+    c2: {blank: c1}
+    c3: {inc: c1}
+    c4: {tile: c3, inc: c1}
+    c5: {inc: c2, blank: c3}
+    c6: {tile: c2, blank: c1}
+    c7: {tile: c5, inc: c6, blank: c4}
+  Node_map:
+    c1: !!set {tile: null}
+    c2: !!set {blank: null}
+    c3: !!set {inc: null}
+    c4: !!set {tile: null, inc: null}
+    c5: !!set {inc: null, blank: null}
+    c6: !!set {tile: null, blank: null}
+    c7: !!set {tile: null, inc: null, blank: null}
+  Nodes: [c1, c2, c3, c4, c5, c6, c7]
+  Sup: c7

@@ -1,0 +1,23 @@
+Lattice:
+    Init: c1
+    Nodes:
+        - c2
+        - c3
+        - c4
+        - c5
+        - c6
+        - c7
+        - c8
+    Edges:
+        - [c1, tile, c2]
+        - [c1, xposition, c3]
+        - [c1, blank, c4]
+        - [c2, xposition, c5]
+        - [c2, blank, c7]
+        - [c3, blank, c6]
+        - [c3, tile, c5]
+        - [c4, xposition, c6]
+        - [c4, tile, c7]
+        - [c5, blank, c8]
+        - [c6, tile, c8]
+        - [c7, xposition, c8]

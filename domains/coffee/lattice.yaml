@@ -1,0 +1,23 @@
+Lattice:
+    Init: c1
+    Nodes:
+        - c2
+        - c3
+        - c4
+        - c5
+        - c6
+        - c7
+        - c8
+    Edges:
+        - [c1, has_clean_mug, c2]
+        - [c1, is_water_heater_working, c3]
+        - [c1, is_grinder_working, c4]
+        - [c2, is_water_heater_working, c5]
+        - [c2, is_grinder_working, c7]
+        - [c3, is_grinder_working, c6]
+        - [c3, has_clean_mug, c5]
+        - [c4, is_water_heater_working, c6]
+        - [c4, has_clean_mug, c7]
+        - [c5, is_grinder_working, c8]
+        - [c6, has_clean_mug, c8]
+        - [c7, is_water_heater_working, c8]

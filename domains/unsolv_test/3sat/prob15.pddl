@@ -1,0 +1,41 @@
+(define (problem satprob)
+  (:domain satdom)
+  (:objects
+    v1 v2 v3 v4 v5 - var
+    c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 c10 c11 c12 c13 c14 c15 c16 c17 c18 c19 c20 c21 - clause
+  )
+  (:init
+    (unassigned v1)
+    (unassigned v2)
+    (unassigned v3)
+    (unassigned v4)
+    (unassigned v5)
+  )
+
+  (:goal
+    (and
+      (solved c0)
+      (solved c1)
+      (solved c2)
+      (solved c3)
+      (solved c4)
+      (solved c5)
+      (solved c6)
+      (solved c7)
+      (solved c8)
+      (solved c9)
+      (solved c10)
+      (solved c11)
+      (solved c12)
+      (solved c13)
+      (solved c14)
+      (solved c15)
+      (solved c16)
+      (solved c17)
+      (solved c18)
+      (solved c19)
+      (solved c20)
+      (solved c21)
+    )
+  )
+)

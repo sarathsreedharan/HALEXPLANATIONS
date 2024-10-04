@@ -1,0 +1,27 @@
+Lattice:
+  Edge_map:
+    c1: {can_stabilize: c4, channel_free: c6, visible: c1}
+    c2: {can_stabilize: c5, visible: c6}
+    c3: {channel_free: c5, visible: c4}
+    c4: {channel_free: c7}
+    c5: {visible: c7}
+    c6: {can_stabilize: c7}
+  Init: c1
+  Inv_edge_map:
+    c1: {visible: c1}
+    c2: {channel_free: c1}
+    c3: {can_stabilize: c1}
+    c4: {can_stabilize: c1, visible: c3}
+    c5: {can_stabilize: c2, channel_free: c3}
+    c6: {channel_free: c1, visible: c2}
+    c7: {can_stabilize: c6, channel_free: c4, visible: c5}
+  Node_map:
+    c1: !!set {visible: null}
+    c2: !!set {channel_free: null}
+    c3: !!set {can_stabilize: null}
+    c4: !!set {can_stabilize: null, visible: null}
+    c5: !!set {can_stabilize: null, channel_free: null}
+    c6: !!set {channel_free: null, visible: null}
+    c7: !!set {can_stabilize: null, channel_free: null, visible: null}
+  Nodes: [c1, c2, c3, c4, c5, c6, c7]
+  Sup: c7

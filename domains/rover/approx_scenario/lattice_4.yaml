@@ -1,0 +1,52 @@
+Lattice:
+  Edge_map:
+    c1: {available: c1, can-traverse: c5, equipped-for-rock-analysis: c8, equipped-for-soil-analysis: c10}
+    c10: {can-traverse: c14, equipped-for-rock-analysis: c11}
+    c11: {can-traverse: c15}
+    c12: {available: c15}
+    c13: {equipped-for-soil-analysis: c15}
+    c14: {equipped-for-rock-analysis: c15}
+    c2: {available: c8, can-traverse: c6, equipped-for-soil-analysis: c9}
+    c3: {available: c5, equipped-for-rock-analysis: c6, equipped-for-soil-analysis: c7}
+    c4: {available: c10, can-traverse: c7, equipped-for-rock-analysis: c9}
+    c5: {equipped-for-rock-analysis: c13, equipped-for-soil-analysis: c14}
+    c6: {available: c13, equipped-for-soil-analysis: c12}
+    c7: {available: c14, equipped-for-rock-analysis: c12}
+    c8: {can-traverse: c13, equipped-for-soil-analysis: c11}
+    c9: {available: c11, can-traverse: c12}
+  Init: c1
+  Inv_edge_map:
+    c1: {available: c1}
+    c10: {available: c4, equipped-for-soil-analysis: c1}
+    c11: {available: c9, equipped-for-rock-analysis: c10, equipped-for-soil-analysis: c8}
+    c12: {can-traverse: c9, equipped-for-rock-analysis: c7, equipped-for-soil-analysis: c6}
+    c13: {available: c6, can-traverse: c8, equipped-for-rock-analysis: c5}
+    c14: {available: c7, can-traverse: c10, equipped-for-soil-analysis: c5}
+    c15: {available: c12, can-traverse: c11, equipped-for-rock-analysis: c14, equipped-for-soil-analysis: c13}
+    c2: {equipped-for-rock-analysis: c1}
+    c3: {can-traverse: c1}
+    c4: {equipped-for-soil-analysis: c1}
+    c5: {available: c3, can-traverse: c1}
+    c6: {can-traverse: c2, equipped-for-rock-analysis: c3}
+    c7: {can-traverse: c4, equipped-for-soil-analysis: c3}
+    c8: {available: c2, equipped-for-rock-analysis: c1}
+    c9: {equipped-for-rock-analysis: c4, equipped-for-soil-analysis: c2}
+  Node_map:
+    c1: !!set {available: null}
+    c10: !!set {available: null, equipped-for-soil-analysis: null}
+    c11: !!set {available: null, equipped-for-rock-analysis: null, equipped-for-soil-analysis: null}
+    c12: !!set {can-traverse: null, equipped-for-rock-analysis: null, equipped-for-soil-analysis: null}
+    c13: !!set {available: null, can-traverse: null, equipped-for-rock-analysis: null}
+    c14: !!set {available: null, can-traverse: null, equipped-for-soil-analysis: null}
+    c15: !!set {available: null, can-traverse: null, equipped-for-rock-analysis: null,
+      equipped-for-soil-analysis: null}
+    c2: !!set {equipped-for-rock-analysis: null}
+    c3: !!set {can-traverse: null}
+    c4: !!set {equipped-for-soil-analysis: null}
+    c5: !!set {available: null, can-traverse: null}
+    c6: !!set {can-traverse: null, equipped-for-rock-analysis: null}
+    c7: !!set {can-traverse: null, equipped-for-soil-analysis: null}
+    c8: !!set {available: null, equipped-for-rock-analysis: null}
+    c9: !!set {equipped-for-rock-analysis: null, equipped-for-soil-analysis: null}
+  Nodes: [c1, c2, c3, c4, c5, c6, c7, c8, c9, c10, c11, c12, c13, c14, c15]
+  Sup: c15

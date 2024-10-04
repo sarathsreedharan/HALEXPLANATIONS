@@ -1,0 +1,27 @@
+Lattice:
+  Edge_map:
+    c1: {g: c4, p: c6, q: c1}
+    c2: {g: c5, q: c6}
+    c3: {p: c5, q: c4}
+    c4: {p: c7}
+    c5: {q: c7}
+    c6: {g: c7}
+  Init: c1
+  Inv_edge_map:
+    c1: {q: c1}
+    c2: {p: c1}
+    c3: {g: c1}
+    c4: {g: c1, q: c3}
+    c5: {g: c2, p: c3}
+    c6: {p: c1, q: c2}
+    c7: {g: c6, p: c4, q: c5}
+  Node_map:
+    c1: !!set {q: null}
+    c2: !!set {p: null}
+    c3: !!set {g: null}
+    c4: !!set {g: null, q: null}
+    c5: !!set {g: null, p: null}
+    c6: !!set {p: null, q: null}
+    c7: !!set {g: null, p: null, q: null}
+  Nodes: [c1, c2, c3, c4, c5, c6, c7]
+  Sup: c7

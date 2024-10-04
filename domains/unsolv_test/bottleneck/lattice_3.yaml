@@ -1,0 +1,27 @@
+Lattice:
+  Edge_map:
+    c1: {active: c1, connected: c4, person: c6}
+    c2: {active: c6, connected: c5}
+    c3: {active: c4, person: c5}
+    c4: {person: c7}
+    c5: {active: c7}
+    c6: {connected: c7}
+  Init: c1
+  Inv_edge_map:
+    c1: {active: c1}
+    c2: {person: c1}
+    c3: {connected: c1}
+    c4: {active: c3, connected: c1}
+    c5: {connected: c2, person: c3}
+    c6: {active: c2, person: c1}
+    c7: {active: c5, connected: c6, person: c4}
+  Node_map:
+    c1: !!set {active: null}
+    c2: !!set {person: null}
+    c3: !!set {connected: null}
+    c4: !!set {active: null, connected: null}
+    c5: !!set {connected: null, person: null}
+    c6: !!set {active: null, person: null}
+    c7: !!set {active: null, connected: null, person: null}
+  Nodes: [c1, c2, c3, c4, c5, c6, c7]
+  Sup: c7
